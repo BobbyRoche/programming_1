@@ -1,0 +1,8 @@
+print("Welcome to Linear Regression Generator.")
+file_name = input("Entee the file name containing the data: ")
+try:
+	file = open(file_name,r+)
+
+except FileNotFoundError:
+	print("Error: File could not be opened.")
+	sys.exit()

@@ -1,0 +1,21 @@
+Analysis:
+
+1.) Unknown value predictions
+
+ages.csv Year = 2020 Age = 31
+
+hurricanes.csv Year = 3000 Hurricanes = 18.33318
+
+temp.csv Year = 2030 Temp = 58.29949
+
+voters.csv Year = 2012 Voters = 262.00952
+
+weight.csv Height = 100 Weight = 347.22375
+
+These are predicitons for values that are not given. They seem to follow the trend of the line,but may be slightly
+off from the exact numbers since things like hurricanes are not on a fixed schedule. 
+
+2.) The accuracy of the program seems to be quite accurate, however there is always room for improvement. 
+It definitely is not exact, but it is only off by a few decimals from what I can tell. Adding more entries
+to the csv files would improve accuracy. Technically since some decimals are infinite, the program cannot be
+one hundred percent accurate on all entries, but could get infinitely close to perfect accuracy as entries are added.

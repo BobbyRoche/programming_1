@@ -1,0 +1,24 @@
+print('Welcome to the Student Loan Calculator')
+
+p= int (input("Enter the amount of the loan in dollars with (no commas):"))
+
+y= int(input("Enter the number of years the loan is for:"))
+
+t = 12
+
+i = 0.034
+
+f = 0.01051
+
+M = (p*i)/(12*(1-(1+i/t)**-y*t))
+print(M)
+irpaid = i*p*y
+fpaid = p*f
+total = p+fpaid+ipaid
+M=total/(12*y)
+cost = total-p
+
+print("____________________________________________________")
+
+M = (p*i)/(12*(1-(1+i/t)**-y*t))
+print(M)
